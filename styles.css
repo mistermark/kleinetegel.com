@@ -1,0 +1,30 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+.logo-wrapper {
+  background-color: #0F4C81;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+.logo-wrapper img {
+  max-width: 80vw;
+}
+.logo-wrapper .tagline {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 4px;
+  font-size: 24px;
+  margin: 0 0 1rem 0;
+}
